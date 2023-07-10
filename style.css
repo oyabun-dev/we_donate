@@ -168,8 +168,15 @@ ul{
     color: var(--main-color);
 }
 
+.section-landing {
+    height: 100%;
+}
+
 #hero-section {
+    display: flex;
+    align-items: center;
     padding: 1rem 0;
+    height: 90vh;
 }
 .landing-text {
     display: flex;
